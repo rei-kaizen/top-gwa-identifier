@@ -23,5 +23,15 @@ for name in names:
     gwa = gwa_generator()
     #append the dictionary contains the student's name and gwa as keys to the marklist
     marklist.append({"name": name, "gwa" : gwa})
+
+#open a file for writing the student record     
+file = open("students.txt", "w")
+#looping through the marklist
+for student in marklist:
+    #write the name and gwa in a separate line
+    file.write(f"{student['name']}: {student['gwa']}\n")
+
+#close the file
+file.close()
+
     
-    print(f"{name}: {gwa}\n")
