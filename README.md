@@ -1,19 +1,13 @@
 # Top GWA Identifier
-This program generates a random GWAs (General Weighted Average) for each student in the given list of names, saves it in a file, and reads the file to identify the student with the highest GWA.
+This program generates a random GWA (general weighted average) for each student in the given list of names, saves it in a file, and reads the file to identify the student with the highest GWA.
 
 ## The program consists of two parts:
 
 ### GWA Generator
-1. The first part generates a random GWA for each student in the given list of names.<br>
-2. A function called `gwa_generator()` is used to generate a random GWA between 1.0 and 5.0, and the result is rounded off to 2 decimal places.<br>
-3. A list of student names is created and a dictionary with each student's name and corresponding random GWA is appended to the marklist.<br>
-4. Finally, the program writes the student name and GWA to a file.<br>
+The first part generates a random GWA for each student in the given list of names. A function called `gwa_generator()` is used to generate a random GWA between 1.0 and 5.0, and the result is rounded off to 2 decimal places.A list of student names is created and a dictionary with each student's name and corresponding random GWA is appended to the marklist. Finally, the program writes the student name and GWA to a file.<br>
 
 ### Finding the student with the highest GWA
-1. The second part of the program opens and reads the contents of the students' file. <br>
-2. The contents of the file are converted to a list of dictionaries with the student's name and GWA as keys.<br>
-3. The program then finds the student with the highest GWA in the list using a `while` loop and conditional statements.<br>
-4. Finally, the program prints out the name and GWA of the student with the highest GWA.<br>
+The second part of the program opens and reads the contents of the students' file. The contents of the file are converted to a list of dictionaries with the student's name and GWA as keys. The program then finds the student with the highest GWA in the list using a `while` loop and conditional statements. Finally, the program prints out the name and GWA of the student with the highest GWA.<br>
 
 ## 📄 Documentation 
 <details><summary><h3> 🤔 Usage </h3></summary>
@@ -61,7 +55,7 @@ The output is displayed in the console using the `print()` method.
 
 -----
 
-This program can be a useful tool for automatically displaying the top student with his or her respective GWA among a list of students.
+The two parts of the program work together to generate a random GWA for each student on the list. This can be a useful tool for automatically displaying the top student with his or her respective GWA among a list of students.
 
 </details>
 
