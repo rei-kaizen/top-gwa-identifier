@@ -1,7 +1,7 @@
 # Top GWA Identifier
 This program generates a random GWA (general weighted average) for each student in the given list of names, saves it in a file, and reads the file to identify the student with the highest GWA.
 
-## The program consists of two parts:
+## The Program Consists of Two Parts:
 
 ### GWA Generator
 The first part generates a random GWA for each student in the given list of names. A function called `gwa_generator()` is used to generate a random GWA between 1.0 and 5.0, and the result is rounded off to 2 decimal places.A list of student names is created and a dictionary with each student's name and corresponding random GWA is appended to the marklist. Finally, the program writes the student name and GWA to a file.<br>
