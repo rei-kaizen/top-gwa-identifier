@@ -5,18 +5,18 @@ This program generates a random GWAs (General Weighted Average) for each student
 
 ### GWA Generator
 1. The first part generates a random GWA for each student in the given list of names.<br>
-2. A function called gwa_generator() is used to generate a random GWA between 1.0 and 5.0, and the result is rounded off to 2 decimal places.<br>
+2. A function called `gwa_generator()` is used to generate a random GWA between 1.0 and 5.0, and the result is rounded off to 2 decimal places.<br>
 3. A list of student names is created and a dictionary with each student's name and corresponding random GWA is appended to the marklist.<br>
 4. Finally, the program writes the student name and GWA to a file.<br>
 
 ### Finding the student with the highest GWA
 1. The second part of the program opens and reads the contents of the students' file. <br>
 2. The contents of the file are converted to a list of dictionaries with the student's name and GWA as keys.<br>
-3. The program then finds the student with the highest GWA in the list using a while loop and conditional statements.<br>
+3. The program then finds the student with the highest GWA in the list using a `while` loop and conditional statements.<br>
 4. Finally, the program prints out the name and GWA of the student with the highest GWA.<br>
 
 ## 📄 Documentation 
-<details><summary><h2> 🤔 Usage </h3></summary>
+<details><summary><h3> 🤔 Usage </h3></summary>
 
 -----
 
@@ -57,7 +57,7 @@ The output is displayed in the console using the `print()` method.
 
 </details>
 
-<details><summary><h2> 💡 Purpose </h3></summary>
+<details><summary><h3> 💡 Purpose </h3></summary>
 
 -----
 
